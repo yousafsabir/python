@@ -17,6 +17,9 @@ list_array.pop(0) # to remove first element
 list_array.pop(3) # removes and returns element on 3rd index
 list_array.extend([6, 7, 8]) # extends list with given array
 
+# Check existance of a value
+print("hello" in list_array) #prints boolean
+
 # ! Important Note:
 # lists in python are not passed by value, rather by reference, even if we assign them to other variable
 arr = [1, 2, 3]
